@@ -13,7 +13,7 @@ export function reset() {
   timer.updateDisplay();
 }
 export function set() {
-  el.minutes.setAttribute("contentedtable", true);
+  el.minutes.setAttribute("contenteditable", true);
 }
 
 export function toggleMusic() {

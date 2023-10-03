@@ -7,6 +7,7 @@ export function registerControls() {
     if (typeof actions[action] != "function") {
       return;
     }
-    actions[action()];
+
+    actions[action]();
   });
 }
